@@ -77,9 +77,9 @@ class _LargeFileMain extends State < LargeFileMain > {
                   }
               }
               print('end progress');
-              return Text('데이터 없음');
+              return Text('데이터 없음!');
             },
-           // future: downloadWidget(file),
+            future: downloadWidget(file),
 
         )
       ),
